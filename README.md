@@ -4,7 +4,7 @@ Thanks to mrchromebox.tech for the custom UEFI and script.
 
 ## Screenshots
 
-![Screenshot] (screenshots/Pictures/Wed%20Feb%2012%2004:41:27%20PM%20CET%202025)
+![Screenshot] (screenshots/Pictures/screenshot-1)
 
 ## Requirements
 - A chromebook
