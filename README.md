@@ -4,6 +4,8 @@ Thanks to mrchromebox.tech for the custom UEFI and script.
 
 ## Screenshots
 <img src="screenshots/Pictures/screenshot-1.png" alt="Screenshot" width="500">
+<img src="screenshots/Pictures/screenshot-2.png" alt="Screenshot" width="500">
+<img src="screenshots/Pictures/screenshot-3.png" alt="Screenshot" width="500">
 
 ## Requirements
 - A chromebook
