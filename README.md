@@ -142,7 +142,7 @@ xrdb .Xresources
 Finally, you have to install your wallpaper, and store it in /Pictures/wal as bg1.jpg
 If you installed my dotfiles, you have my wallpaper, so, you can get it from there.
 ```bash
-mv ~/archbook/wallpaper/bg1.jpg ~/Pictures/wal/bg1.jpg
+mv ~/archbook/bg1.jpg ~/Pictures/wal/bg1.jpg
 wal -i ~/Pictures/wal/bg1.jpg
 ```
 
