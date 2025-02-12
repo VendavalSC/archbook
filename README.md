@@ -1,5 +1,5 @@
 # Archbook
-A complete guide on how to make your chromebook into a lightweight Arch machine with the i3 window manager.
+A complete guide on how to make your chromebook into a lightweight Arch machine with the i3 window manager.\n
 Thanks to mrchromebox.tech for the custom UEFI and script.
 
 ## Screenshots
@@ -12,10 +12,11 @@ Thanks to mrchromebox.tech for the custom UEFI and script.
 
 ## Let's get started
 
-First, check your chromebook model and your motherboard model, you can check your model at the bottom stickers. 
+First, check your chromebook model and your motherboard model, you can check your model at the bottom stickers.\n
 I had the Acer R752T, so it had the Bobba360 motherboard, you can check your motherboard on > https://docs.mrchromebox.tech/docs/supported-devices.html#device-listing
 
-When you have your chromebook model, you have to turn on the Developer Mode. This might be different for other chromebooks model, search your developer mode keys. Careful, as this will delete all your local data. Turn on developer mode by
+When you have your chromebook model, you have to turn on the Developer Mode. This might be different for other chromebooks model, search your developer mode keys. \n
+Careful, as this will delete all your local data. Turn on developer mode by \n
 - Power off
 - Esc + Refresh + Power
 - When you see a recuperation panel, press Ctrl + D
@@ -28,10 +29,9 @@ Once you boot in, you have to run the Firmware Utility Script, to see if you hav
 
 ## Firmware Utility Script
 
-Run it by using the vt2 terminal, while in desktop press Ctrl + Alt + F2 (or forward arrow).
-Then, login with the user chronos, you should be able to boot in without a password.
-Paste the following command in the terminal 
-
+Run it by using the vt2 terminal, while in desktop press Ctrl + Alt + F2 (or forward arrow).\n
+Then, login with the user chronos, you should be able to boot in without a password.\n
+Paste the following command in the terminal \n
 ```bash
 cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 ```
@@ -39,7 +39,7 @@ cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 You should see your chromebook info and your Firmware Protection status, if it's not enabled, skip the next step.
 ## Disabling Firmware Protection
 
-This depends on the model you have, I had a Bobba360, so I did the battery method. Check out the motherboard page to see what method you should use > https://docs.mrchromebox.tech/docs/supported-devices.html#device-listing
+This depends on the model you have, I had a Bobba360, so I did the battery method. Check out the motherboard page to see what method you should use > https://docs.mrchromebox.tech/docs/supported-devices.html#device-listing\n
 
 Method 1 : Removing the Write protection screw
 - Power off the device
@@ -74,8 +74,8 @@ Run the Firmware Utility Script at the vt2 terminal with
 ```bash
 cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 ```
-Choose the second option (CAUTION: THIS MIGHT BRICK YOUR DEVICE, DO AT YOUR OWN RISK)
-If its not available, sorry, you cannot install Arch Linux as your chromebook isnt compatible with custom UEFI.
+Choose the second option (CAUTION: THIS MIGHT BRICK YOUR DEVICE, DO AT YOUR OWN RISK) \n
+If its not available, sorry, you cannot install Arch Linux as your chromebook isnt compatible with custom UEFI. \n
 Follow the instructions of the script.
 
 ## Booting into the custom UEFI
@@ -93,14 +93,14 @@ station name scan #replace name with your device name ex: wlan0
 station name get-networks
 station name connect SSID
 ```
-Ethernet should just work right away
+Ethernet should just work right away. \n
 Then write archinstall command, and choose your hour, partitions, hostname, username, password etc.
 Its important for you to choose desktop profile and i3wm and pipewire audio. I recommend using networkmanager as a manager for wifi.
 
 Press done and reboot your computer (IMPORTANT : Remove the instalation media.
 
 ## Ricing and configuring arch
-Ricing is a term that means to make your OS look good, we'll do it with my dotfiles for i3wm.
+Ricing is a term that means to make your OS look good, we'll do it with my dotfiles for i3wm. \n
 Install the following packages with:
 
 ```bash
