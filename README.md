@@ -6,6 +6,7 @@ Thanks to mrchromebox.tech for the custom UEFI and script.
 <img src="screenshots/Pictures/screenshot-1.png" alt="Screenshot" width="500">
 <img src="screenshots/Pictures/screenshot-2.png" alt="Screenshot" width="500">
 <img src="screenshots/Pictures/screenshot-3.png" alt="Screenshot" width="500">
+<img src="screenshots/Pictures/screenshot-4.png" alt="Screenshot" width="500">
 
 ## Requirements
 - A chromebook
@@ -17,6 +18,7 @@ Thanks to mrchromebox.tech for the custom UEFI and script.
 First, check your chromebook model and your motherboard model, you can check your model at the bottom stickers.
 I had the Acer R752T, so it had the Bobba360 motherboard, you can check your motherboard on > https://docs.mrchromebox.tech/docs/supported-devices.html#device-listing
 
+### Developer mode
 When you have your chromebook model, you have to turn on the Developer Mode. This might be different for other chromebooks model, search your developer mode keys. 
 Careful, as this will delete all your local data. Turn on developer mode by:
 - Power off
@@ -43,14 +45,14 @@ You should see your chromebook info and your Firmware Protection status, if it's
 
 This depends on the model you have, I had a Bobba360, so I did the battery method. Check out the motherboard page to see what method you should use > https://docs.mrchromebox.tech/docs/supported-devices.html#device-listing
 
-Method 1 : Removing the Write protection screw
+### Method 1 : Removing the Write protection screw
 - Power off the device
 - Unscrew the back and open it
 - Remove the WP screw, you can see it at > https://docs.mrchromebox.tech/docs/supported-devices.html#device-listing
 - Reassemble the device
 - Skip to the next step
 
-Method 2 : Disconnecting the battery
+### Method 2 : Disconnecting the battery
 - Power off the device
 - Unscrew the back and open it
 - Remove the battery
@@ -59,7 +61,7 @@ Method 2 : Disconnecting the battery
 - Skip to the next step
 - Once you finished the tutorial, you can put back in the battery
 
-Method 3 : Bridging a jumper
+### Method 3 : Bridging a jumper
 - Power off the device and unplug the charger
 - Unscrew the back and open it
 - Disconnect the battery
@@ -84,6 +86,7 @@ Follow the instructions of the script.
 Once it's done, reboot your device yo boot into the custom uefi. When you see the UEFI logo, press esc, and plug in your installation USB. Go to boot options and boot with your USB, this should boot into your arch instalation.
 
 ## Installing arch
+In this step we'll install arch linux.
 
 Connect to wifi using iwctl utility : 
 
@@ -105,7 +108,7 @@ Ricing is a term that means to make your OS look good, we'll do it with my dotfi
 Install the following packages with:
 
 ```bash
-pacman -S cairo libxcb python2 neofetch nerd-fonts font-awesome xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp i3-gaps dmenu ranger vim rxvt-unicode feh imagemagick python-pip python-pywal w3m
+pacman -S cairo libxcb python2 neofetch nerd-fonts font-awesome xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp i3-gaps dmenu ranger vim rxvt-unicode feh imagemagick python-pip python-pywal w3m git
 ```
 Then, we should install yay to add some more packages.
 ```bash
