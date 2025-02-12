@@ -8,7 +8,7 @@ Thanks to mrchromebox.tech for the custom UEFI and script.
 ## Requirements
 - A chromebook
 - A screwdriver
-- An USB with the latest ISO of archlinux (other distros can also be installed)
+- An USB with the latest ISO of archlinux (other distros can also be installed, but we will use arch for this build)
 
 ## Let's get started
 
@@ -83,7 +83,6 @@ Once it's done, reboot your device yo boot into the custom uefi. When you see th
 
 ## Installing arch
 
-
 Connect to wifi using iwctl utility : 
 
 ```bash
@@ -133,7 +132,10 @@ Then, download my dotfiles,
 ```bash
 cd ~
 git clone https://github.com/VendavalSC/archbook
-cp -r ~/archbook/.config/ ~/
+cp -r ~/archbook/neofetch/ ~/.config/neofetch
+cp -r ~/archbook/i3/ ~/.config/i3
+cp -r ~/archbook/picom/ ~/.config/picom
+cp -r ~/archbook/polybar/ ~/.config/polybar
 
 cp -r ~/archbook/.Xresources ~/
 xrdb .Xresources
