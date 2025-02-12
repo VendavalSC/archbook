@@ -3,8 +3,7 @@ A complete guide on how to make your chromebook into a lightweight Arch machine 
 Thanks to mrchromebox.tech for the custom UEFI and script.
 
 ## Screenshots
-
-![Screenshot](https://raw.githubusercontent.com/usuario/repositorio/main/screenshots/Pictures/screenshot-1.png)
+<img src="screenshots/Pictures/screenshot-1.png" alt="Screenshot" width="500">
 
 ## Requirements
 - A chromebook
