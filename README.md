@@ -20,7 +20,7 @@ I had the Acer R752T, so it had the Bobba360 motherboard, you can check your mot
 
 ### Developer mode
 When you have your chromebook model, you have to turn on the Developer Mode. This might be different for other chromebooks model, search your developer mode keys. 
-Be careful—this will erase all local data on your Chromebook.. Turn on developer mode by:
+Be careful—this will erase all local data on your Chromebook. Turn on developer mode by:
 - Power off
 - Esc + Refresh + Power
 - When you see a recuperation panel, press Ctrl + D
@@ -88,7 +88,7 @@ Once it's done, reboot your device to boot into the custom UEFI. When you see th
 ## Installing arch
 In this step we'll install arch linux.
 
-Connect to wifi using iwctl utility : 
+Connect to wifi using `iwctl` utility : 
 
 ```bash
 iwctl
