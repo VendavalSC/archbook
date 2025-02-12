@@ -4,7 +4,7 @@ Thanks to mrchromebox.tech for the custom UEFI and script.
 
 ## Screenshots
 
-![Screenshot] (screenshots/Pictures/screenshot-1.png)
+![Screenshot](https://raw.githubusercontent.com/usuario/repositorio/main/screenshots/Pictures/screenshot-1.png)
 
 ## Requirements
 - A chromebook
