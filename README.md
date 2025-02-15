@@ -137,10 +137,10 @@ Then, download my dotfiles,
 ```bash
 cd ~
 git clone https://github.com/VendavalSC/archbook
-cp -r ~/archbook/neofetch/ ~/.config/neofetch
-cp -r ~/archbook/i3/ ~/.config/i3
-cp -r ~/archbook/picom/ ~/.config/picom
-cp -r ~/archbook/polybar/ ~/.config/polybar
+cp -r ~/archbook/neofetch/ ~/.config/
+cp -r ~/archbook/i3/ ~/.config/
+cp -r ~/archbook/picom/ ~/.config/
+cp -r ~/archbook/polybar/ ~/.config/
 
 cp -r ~/archbook/.Xresources ~/
 xrdb .Xresources
@@ -173,7 +173,7 @@ yay -S lightdm-mini-greeter
 ```
 Great, then, copy my lightdm folder into yours with:
 ```bash
-cp -r ~/archbook/lightdm /etc/lightdm
+cp -r ~/archbook/lightdm /etc/
 ```
 Then, you'll have to modify the lightdm-mini-greeter file, so you log-in into the right user:
 ```bash
