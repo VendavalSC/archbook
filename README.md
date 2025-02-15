@@ -163,6 +163,24 @@ Reboot your laptop by using
 reboot now
 ```
 
+### Login Manager (Optional)
+We'll install lightdm-mini-greeter as our login manager. Let's begin. *This only works with one user.
+
+First, well install the lightdm-mini-greeter.
+
+```bash
+yay -S lightdm-mini-greeter
+```
+Great, then, copy my lightdm folder into yours with:
+```bash
+cp -r ~/archbook/lightdm /etc/lightdm
+```
+Then, you'll have to modify the lightdm-mini-greeter file, so you log-in into the right user:
+```bash
+nano /etc/lightdm/lightdm-mini-greeter.conf
+```
+Replace v3nd1 with your username in the 7th line.
+
 ## Done
 You're done! Enjoy!
 
